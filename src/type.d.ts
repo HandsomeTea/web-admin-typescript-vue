@@ -1,7 +1,7 @@
 declare interface httpArgument {
     params?: Record<string, any>;// eslint-disable-line @typescript-eslint/no-explicit-any
     data?: Record<string, unknown>;
-    headers?: Record<string, string | string[] | undefined>;
+    headers?: Record<string, string | number | boolean>;
 }
 
 declare interface exceptionError {
